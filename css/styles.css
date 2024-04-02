@@ -1232,6 +1232,107 @@ nav .links .last-link {
     gap: 42px;
   }
 }
+.special_offers {
+  max-width: 980px;
+  min-height: 200px;
+  background-color: orange;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.special_offers .container {
+  max-width: 525px;
+  min-height: 200px;
+  background-color: orangered;
+}
+.special_offers .container .title_box {
+  width: 233px;
+  min-height: 37px;
+  background-color: blue;
+  text-wrap: nowrap;
+  margin-top: 59.5px;
+  border-bottom: 2px solid black;
+}
+.special_offers .container .title_box p {
+  color: black;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: normal;
+}
+.special_offers .container .special_wrapper {
+  width: 521px;
+  height: 287px;
+  background-color: aqua;
+  margin-top: 35.5px;
+  display: flex;
+  justify-content: space-between;
+}
+.special_offers .container .special_wrapper .image {
+  width: 199px;
+  height: 287px;
+  background-color: azure;
+}
+.special_offers .container .special_wrapper .details {
+  width: 292px;
+  height: 287px;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.special_offers .container .special_wrapper .details .subtitle_box {
+  min-width: 300px;
+  height: 37px;
+  background-color: brown;
+  display: flex;
+  justify-content: space-between;
+}
+.special_offers .container .special_wrapper .details .subtitle_box .town_box {
+  width: 234px;
+  min-height: 37px;
+  background-color: blue;
+  text-wrap: nowrap;
+  border-bottom: 2px solid black;
+}
+.special_offers .container .special_wrapper .details .subtitle_box .town_box p {
+  color: black;
+  text-transform: uppercase;
+  font-size: 27px;
+  font-weight: normal;
+}
+.special_offers .container .special_wrapper .details .subtitle_box .discount_box {
+  width: 79px;
+  height: 24px;
+  background-color: red;
+  margin-top: 10px;
+  margin-left: 33px;
+}
+.special_offers .container .special_wrapper .details .subtitle_box .discount_box p {
+  font-size: 20px;
+  color: #ff7d38;
+  text-wrap: nowrap;
+  text-transform: uppercase;
+}
+.special_offers .container .special_wrapper .details .pg_box {
+  max-width: 290px;
+  min-height: 100px;
+  background-color: cadetblue;
+}
+.special_offers .container .special_wrapper .details .pg_box p {
+  font-size: 16px;
+  font-weight: lighter;
+}
+.special_offers .container .special_wrapper .details button {
+  height: 40px;
+  width: 133px;
+  border-radius: 20px;
+  background-color: #79addc;
+  border: 1px solid #79addc;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
 footer {
   width: 100%;
   height: 100px;

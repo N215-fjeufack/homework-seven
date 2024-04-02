@@ -1,0 +1,102 @@
+.special_offers {
+  max-width: $content-width;
+  min-height: 200px;
+  background-color: orange;
+  margin: 0 auto;
+  margin-bottom: 100px;
+
+  .container {
+    max-width: 525px;
+    min-height: 200px;
+    background-color: orangered;
+
+    .title_box {
+      width: 233px;
+      min-height: 37px;
+      background-color: blue;
+      text-wrap: nowrap;
+      margin-top: 59.5px;
+      border-bottom: 2px solid black;
+      p {
+        color: black;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: normal;
+      }
+    }
+    .special_wrapper {
+      width: 521px;
+      height: 287px;
+      background-color: aqua;
+      margin-top: 35.5px;
+      display: flex;
+      justify-content: space-between;
+
+      .image {
+        width: 199px;
+        height: 287px;
+        background-color: azure;
+      }
+
+      .details {
+        width: 292px;
+        height: 287px;
+        background-color: blueviolet;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .subtitle_box {
+          min-width: 300px;
+          height: 37px;
+          background-color: brown;
+          display: flex;
+          justify-content: space-between;
+
+          .town_box {
+            width: 234px;
+            min-height: 37px;
+            background-color: blue;
+            text-wrap: nowrap;
+            border-bottom: 2px solid black;
+
+            p {
+              color: black;
+              text-transform: uppercase;
+              font-size: 27px;
+              font-weight: normal;
+            }
+          }
+          .discount_box {
+            width: 79px;
+            height: 24px;
+            background-color: red;
+            margin-top: 10px;
+            margin-left: 33px;
+
+            p {
+              font-size: 20px;
+              color: #ff7d38;
+              text-wrap: nowrap;
+              text-transform: uppercase;
+            }
+          }
+        }
+        .pg_box {
+          max-width: 290px;
+          min-height: 100px;
+          background-color: cadetblue;
+          p {
+            font-size: 16px;
+            font-weight: lighter;
+          }
+        }
+
+        button {
+          @include learn-more();
+        }
+      }
+    }
+  }
+}
+

@@ -1235,19 +1235,16 @@ nav .links .last-link {
 .special_offers {
   max-width: 980px;
   min-height: 200px;
-  background-color: orange;
   margin: 0 auto;
   margin-bottom: 100px;
 }
 .special_offers .container {
   max-width: 525px;
   min-height: 200px;
-  background-color: orangered;
 }
 .special_offers .container .title_box {
   width: 233px;
   min-height: 37px;
-  background-color: blue;
   text-wrap: nowrap;
   margin-top: 59.5px;
   border-bottom: 2px solid black;
@@ -1261,7 +1258,6 @@ nav .links .last-link {
 .special_offers .container .special_wrapper {
   width: 521px;
   height: 287px;
-  background-color: aqua;
   margin-top: 35.5px;
   display: flex;
   justify-content: space-between;
@@ -1269,12 +1265,10 @@ nav .links .last-link {
 .special_offers .container .special_wrapper .image {
   width: 199px;
   height: 287px;
-  background-color: azure;
 }
 .special_offers .container .special_wrapper .details {
   width: 292px;
   height: 287px;
-  background-color: blueviolet;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1282,14 +1276,12 @@ nav .links .last-link {
 .special_offers .container .special_wrapper .details .subtitle_box {
   min-width: 300px;
   height: 37px;
-  background-color: brown;
   display: flex;
   justify-content: space-between;
 }
 .special_offers .container .special_wrapper .details .subtitle_box .town_box {
   width: 234px;
   min-height: 37px;
-  background-color: blue;
   text-wrap: nowrap;
   border-bottom: 2px solid black;
 }
@@ -1302,7 +1294,6 @@ nav .links .last-link {
 .special_offers .container .special_wrapper .details .subtitle_box .discount_box {
   width: 79px;
   height: 24px;
-  background-color: red;
   margin-top: 10px;
   margin-left: 33px;
 }
@@ -1315,7 +1306,6 @@ nav .links .last-link {
 .special_offers .container .special_wrapper .details .pg_box {
   max-width: 290px;
   min-height: 100px;
-  background-color: cadetblue;
 }
 .special_offers .container .special_wrapper .details .pg_box p {
   font-size: 16px;

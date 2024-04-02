@@ -1,19 +1,19 @@
 .special_offers {
   max-width: $content-width;
   min-height: 200px;
-  background-color: orange;
+  //   background-color: orange;
   margin: 0 auto;
   margin-bottom: 100px;
 
   .container {
     max-width: 525px;
     min-height: 200px;
-    background-color: orangered;
+    // background-color: orangered;
 
     .title_box {
       width: 233px;
       min-height: 37px;
-      background-color: blue;
+      //   background-color: blue;
       text-wrap: nowrap;
       margin-top: 59.5px;
       border-bottom: 2px solid black;
@@ -27,7 +27,7 @@
     .special_wrapper {
       width: 521px;
       height: 287px;
-      background-color: aqua;
+      //   background-color: aqua;
       margin-top: 35.5px;
       display: flex;
       justify-content: space-between;
@@ -35,13 +35,13 @@
       .image {
         width: 199px;
         height: 287px;
-        background-color: azure;
+        // background-color: azure;
       }
 
       .details {
         width: 292px;
         height: 287px;
-        background-color: blueviolet;
+        // background-color: blueviolet;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -49,14 +49,14 @@
         .subtitle_box {
           min-width: 300px;
           height: 37px;
-          background-color: brown;
+          //   background-color: brown;
           display: flex;
           justify-content: space-between;
 
           .town_box {
             width: 234px;
             min-height: 37px;
-            background-color: blue;
+            // background-color: blue;
             text-wrap: nowrap;
             border-bottom: 2px solid black;
 
@@ -70,7 +70,7 @@
           .discount_box {
             width: 79px;
             height: 24px;
-            background-color: red;
+            // background-color: red;
             margin-top: 10px;
             margin-left: 33px;
 
@@ -85,7 +85,7 @@
         .pg_box {
           max-width: 290px;
           min-height: 100px;
-          background-color: cadetblue;
+          //   background-color: cadetblue;
           p {
             font-size: 16px;
             font-weight: lighter;
@@ -99,4 +99,3 @@
     }
   }
 }
-

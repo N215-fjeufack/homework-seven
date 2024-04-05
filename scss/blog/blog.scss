@@ -1,6 +1,91 @@
 .blog {
   max-width: $content-width;
   min-height: 200px;
-  background-color: aqua;
+  //   background-color: aqua;
   margin: 0 auto;
+
+  .title_box {
+    width: 106px;
+    height: 65px;
+    // background-color: brown;
+    border-bottom: 2px solid black;
+    margin-top: 59.5px;
+    margin-bottom: 21.5px;
+
+    p {
+      color: black;
+      text-transform: uppercase;
+      font-size: 30px;
+      padding-top: 10%;
+      letter-spacing: 2px;
+    }
+  }
+
+  .blog_content_container {
+    max-width: $content-width;
+    min-height: 259px;
+    // background-color: blueviolet;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .date {
+      width: 60px;
+      height: 60px;
+      background-color: $site-blue;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .day {
+        color: white;
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: -3px;
+        margin-top: 15px;
+        text-transform: uppercase;
+      }
+
+      .month {
+        color: white;
+        font-weight: lighter;
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+    }
+    .right_container {
+      width: 900px;
+      min-height: 259px;
+      //   background-color: chartreuse;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .hero {
+        max-width: 900px;
+        height: 259px;
+        // background-color: red;
+        background-image: url(/images/blog_hero.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .title {
+        width: 245px;
+        color: black;
+        font-size: 15px;
+        // background-color: cornflowerblue;
+        padding-top: 20px;
+      }
+      .sub_title {
+        width: 380px;
+        color: $site-blue;
+        font-size: 13px;
+        // background-color: chocolate;
+      }
+    }
+  }
 }

@@ -1,0 +1,55 @@
+.contact {
+  max-width: $content-width;
+  min-height: 200px;
+  background-color: burlywood;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 59.5px;
+  margin-bottom: 100px;
+
+  .left-container {
+    width: 400px;
+    min-height: 100px;
+    background-color: aqua;
+
+    .header-box {
+      height: 35px;
+      width: 159px;
+      font-size: 30px;
+      color: black;
+      text-transform: uppercase;
+      background-color: cornflowerblue;
+      text-wrap: nowrap;
+      letter-spacing: 3px;
+      border-bottom: 2px solid black;
+    }
+
+    .map {
+      width: 400px;
+      height: 442px;
+      margin-top: 50.5px;
+      margin-bottom: 34px;
+      background-color: red;
+      background-image: url(../images/map-pic.png);
+    }
+
+    .bottom-box {
+      width: 400px;
+      height: 161px;
+      font-size: 18px;
+      font-weight: lighter;
+      background-color: darkgreen;
+
+      p {
+        margin-bottom: 3px;
+      }
+    }
+  }
+
+  .right-container {
+    width: 529px;
+    min-height: 100px;
+    background-color: greenyellow;
+  }
+}
